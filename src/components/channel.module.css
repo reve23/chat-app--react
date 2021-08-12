@@ -1,0 +1,23 @@
+.messagelist{
+    /* overflow: scroll; */
+    height: 8%;
+    /* padding: 2%; */
+    width: 300px;
+    /* margin: 0 auto; */
+    white-space: nowrap;
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.messagelist li{
+    width: 100px;
+}
+.behind{
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
